@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-def max_integer(my_list=[]):
-    if not my_list or len(my_list) == 0:
-        return None
-    return sorted(my_list)[-1]
+def multiple_returns(sentence):
+    if not sentence:
+        sentence = None
+    if sentence:
+        sen_len = len(sentence)
+    else:
+        sen_len = 0
+    return (sen_len, sentence if not sentence else sentence[:1])
