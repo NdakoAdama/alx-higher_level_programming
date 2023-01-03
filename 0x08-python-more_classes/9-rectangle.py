@@ -1,4 +1,4 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 """
 Defines a class Rectangle with private attribute width and height,
 public area and perimeter methods, and allows printing using any given symbol,
